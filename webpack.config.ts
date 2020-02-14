@@ -4,7 +4,7 @@ import { Compiler } from 'webpack';
 
 import HtmlPlugin = require('html-webpack-plugin');
 // tslint:disable-next-line: no-var-requires
-const { BundleStatsWebpackPlugin } = require('bundle-stats');
+const { BundleStatsWebpackPlugin } = require('bundle-stats-webpack-plugin');
 
 const cwd = process.cwd();
 const docs = join(cwd, 'docs');
